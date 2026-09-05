@@ -525,25 +525,26 @@ body.theme-luka strong {
     font-size: 13px;
   }
 @media (max-width: 700px) {
-  .top-nav .nav-container {
-    align-items: flex-start;
-  }
-
-  .nav-left {
+  body.theme-luka .top-nav .nav-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 6px 14px;
-    max-width: 80%;
+    align-items: center;
+    justify-content: space-between;
   }
 
-  .nav-left a {
-    font-size: 16px;
-    line-height: 1.4;
+  body.theme-luka .nav-left {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 16px;
+    max-width: none;
   }
 
-  .nav-right {
+  body.theme-luka .nav-left a {
+    font-size: 14px !important;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+
+  body.theme-luka .nav-right {
     margin-left: auto;
   }
 }
-}
-u
