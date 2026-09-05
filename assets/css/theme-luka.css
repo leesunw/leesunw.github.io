@@ -534,14 +534,14 @@ body.theme-luka strong {
   body.theme-luka .nav-left {
     display: flex;
     flex-wrap: nowrap;
-    gap: 16px;
-    max-width: none;
+    gap: 22px;
   }
 
   body.theme-luka .nav-left a {
-    font-size: 14px !important;
+    font-size: 12px !important;
     line-height: 1.2;
     white-space: nowrap;
+     display: inline-block;
   }
 
   body.theme-luka .nav-right {
