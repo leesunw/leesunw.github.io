@@ -524,4 +524,26 @@ body.theme-luka strong {
   body.theme-luka .pub-content .periodical {
     font-size: 13px;
   }
+@media (max-width: 700px) {
+  .top-nav .nav-container {
+    align-items: flex-start;
+  }
+
+  .nav-left {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 14px;
+    max-width: 80%;
+  }
+
+  .nav-left a {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .nav-right {
+    margin-left: auto;
+  }
 }
+}
+u
