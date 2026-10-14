@@ -369,6 +369,10 @@ body.theme-luka .exp-period {
   font-weight: 500;
 }
 
+body.theme-luka .exp-presentations + .exp-period {
+  margin-top: 18px;
+}
+
 body.theme-luka .project-card {
   font-size: 15px;
   line-height: 1.7;
