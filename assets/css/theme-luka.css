@@ -333,8 +333,25 @@ body.theme-luka .experience-content {
 }
 
 body.theme-luka .experience-content p {
-  margin: 0 0 2px;
+  margin: 0 0 6px;
 }
+
+/* Research description and conference presentations */
+
+body.theme-luka .exp-presentations {
+  margin-top: 14px;
+  padding-left: 12px;
+  border-left: 2px solid var(--luka-border);
+}
+
+body.theme-luka .exp-presentations .exp-detail {
+  margin-bottom: 12px;
+}
+
+body.theme-luka .exp-presentations .exp-detail:last-child {
+  margin-bottom: 0;
+}
+
 
 body.theme-luka .exp-title {
   font-size: 15px;
